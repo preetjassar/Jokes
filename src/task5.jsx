@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import "./Task5.css";
+import "./task5.css";
 
 import {
   Sun,
@@ -88,9 +88,8 @@ const Task5 = () => {
 
   return (
     <div
-      className={` duration-500 ${
-        theme === "light" ? "bg-white text-black" : "bg-gray-900 text-white"
-      }`}
+      className={` duration-500 ${theme === "light" ? "bg-white text-black" : "bg-gray-900 text-white"
+        }`}
     >
       <header className="flex justify-between items-center p-3 fixed w-full z-10">
         <div className="bg-gray-100 rounded-xl w-[30vw]">
@@ -118,9 +117,8 @@ const Task5 = () => {
           <div className="w-9 h-9  border rounded-full "></div>
 
           <select
-            className={`text-lg font-semibold bg-transparent outline-none ${
-              theme === "light" ? "text-black" : "text-white"
-            }`}
+            className={`text-lg font-semibold bg-transparent outline-none ${theme === "light" ? "text-black" : "text-white"
+              }`}
           >
             <option>System Admin</option>
 
@@ -148,11 +146,10 @@ const Task5 = () => {
           {filteredCards.map((item, index) => (
             <div
               key={index}
-              className={`border rounded-3xl p-5 h-52 ${
-                theme === "light"
+              className={`border rounded-3xl p-5 h-52 ${theme === "light"
                   ? "bg-white border-gray-400"
                   : "bg-gray-800 border-gray-700"
-              }`}
+                }`}
             >
               <div className="text-3xl">{item.icon}</div>
 
