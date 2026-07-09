@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import "./Task5.css";
+import "./task5.css";
 
 import {
   Sun,
